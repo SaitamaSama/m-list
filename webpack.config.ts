@@ -12,6 +12,7 @@ const config: webpack.Configuration = {
   output: {
     filename: "web.bundle.js",
     chunkFilename: "chunk-[name].bundle.js",
+    path: path.join(__dirname, "docs"),
   },
   plugins: [
     new HtmlWebpackPlugin({
