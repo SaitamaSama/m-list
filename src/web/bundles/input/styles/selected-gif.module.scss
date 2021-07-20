@@ -1,0 +1,12 @@
+.selectedGif {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 16px;
+}
+.gif {
+  max-width: 100%;
+  width: auto;
+  max-height: 250px;
+  height: auto;
+}

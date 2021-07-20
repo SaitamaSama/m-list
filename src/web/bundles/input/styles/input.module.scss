@@ -1,0 +1,49 @@
+.inputContainer {
+  display: flex;
+  flex-direction: column;
+  padding: 22px;
+  height: calc(100% - 44px);
+  overflow: auto;
+}
+.inputPaper {
+  padding: 16px;
+  margin-top: 16px;
+  display: flex;
+  flex-direction: column;
+}
+.input {
+}
+
+.buttonGroup {
+  margin-top: 16px;
+  display: flex;
+  justify-content: flex-end;
+}
+.buttonGroup > button {
+  margin-left: 8px;
+}
+
+.gifGrid {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  gap: 8px;
+  max-height: 100%;
+  flex-grow: 1;
+  margin-top: 16px;
+}
+.giphy {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  transition: all 0.1s ease-in-out;
+}
+.giphy:hover {
+  background-color: rgba(0, 0, 0, 0.3);
+}
+.gif {
+  max-width: 100%;
+  width: auto;
+  height: auto;
+  max-height: 175px;
+}
